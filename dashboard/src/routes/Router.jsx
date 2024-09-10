@@ -9,6 +9,12 @@ import MainLayout from "../Layout/MainLayout";
     {
       path: "/",
       element: <MainLayout></MainLayout>,
+      children:[
+        {
+          index:true,
+          element:<Dashboard></Dashboard>
+        }
+      ]
     },
   ]);
 export default router;

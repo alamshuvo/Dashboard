@@ -22,18 +22,21 @@ const Navbar = () => {
             <input
               type="text"
               placeholder="search term "
-              className="bg-main-bg"
+              className="bg-main-bg border-none"
             />
           </div>
           <div>
-            <button className="border-2  px-6 py-3   bg-main-bg hover:bg-button-bg rounded-r hover:text-main-bg">
+            <button className="border-l-2 px-6 py-3   bg-main-bg hover:bg-button-bg rounded-r hover:text-main-bg">
               <IoSearchOutline className="" />
             </button>
           </div>
         </div>
         {/* right side */}
         <div className="flex justify-center items-center gap-6">
+        <div className="relative">
         <IoIosNotifications className="text-2xl hover:text-button-bg" />
+        <p className="absolute -top-3 -right-2 rounded-full w-5 text-center h-5 bg-button-bg text-white ">3</p>
+        </div>
           {/* mode  */}
           <MdOutlineDarkMode className="text-2xl hover:text-button-bg" />
           {/* full screan */}
