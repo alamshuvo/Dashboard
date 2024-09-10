@@ -7,7 +7,7 @@ const CardC = () => {
     return (
         <div className='flex justify-between items-start '>
             {/* revenue */}
-            <div className='flex justify-between items-start bg-white w-[20%] p-3 gap-4  border-[#403f3f] border-1 rounded-xl'>
+            <div className='flex justify-between items-start hover:translate-y-1 transition-transform hover:shadow-lg  bg-white w-[22%] p-3 gap-4  border-[#403f3f] border-1 rounded-xl'>
               <div className='w-16 h-16 flex justify-center items-center rounded-full bg-green-200'>
               <AiOutlineDollarCircle className=' text-3xl bg-green-600 text-white rounded-full' />
               </div>
@@ -19,7 +19,7 @@ const CardC = () => {
             </div>
 
 
-            <div className='flex justify-around items-start bg-white w-[20%] p-3 gap-2 borrder-1 border-[#403f3f] rounded-xl'>
+            <div className='flex justify-around items-start hover:translate-y-1 transition-transform hover:shadow-lg bg-white w-[22%] p-3 gap-2 borrder-1 border-[#403f3f] rounded-xl'>
               <div className=' rounded-full w-16 h-16 flex justify-center items-center '>
               <FaVanShuttle className=' text-3xl text-green-600  rounded-full' />
               </div>
@@ -32,7 +32,7 @@ const CardC = () => {
 
 
 
-            <div className='flex justify-around items-start bg-white w-[20%] p-3 gap-4 borrder-1 border-[#403f3f] rounded-xl'>
+            <div className='flex justify-around items-start hover:translate-y-1 transition-transform hover:shadow-lg bg-white w-[22%] p-3 gap-4 borrder-1 border-[#403f3f] rounded-xl'>
               <div className=' rounded-full w-16 h-16 flex justify-center items-center '>
               <AiOutlineProduct className=' text-3xl text-orange-400  rounded-full' />
               </div>
@@ -44,7 +44,7 @@ const CardC = () => {
             </div>
 
 
-            <div className='flex justify-around items-start bg-white w-[20%] p-3 gap-4 borrder-1 border-[#403f3f] rounded-xl'>
+            <div className='flex justify-around items-start hover:translate-y-1 transition-transform hover:shadow-lg bg-white w-[22%] p-3 gap-4 borrder-1 border-[#403f3f] rounded-xl'>
               <div className=' rounded-full w-16 h-16 flex justify-center items-center '>
               <CiBag1 className=' text-3xl text-blue-400  rounded-full' />
               </div>
