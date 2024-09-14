@@ -2,6 +2,8 @@ import React from "react";
 import { MdOutlineCreateNewFolder } from "react-icons/md";
 import CardC from "../Components/CardC";
 import Charts from "../Components/Charts";
+import BarCharts from "../Components/Bar";
+import Progress from "../Components/Progress";
 
 const Dashboard = () => {
   return (
@@ -26,9 +28,9 @@ const Dashboard = () => {
         <CardC></CardC>
       </div>
       {/* charts */}
-      <div className="flex justify-between items-center mt-10">
+      <div className="flex justify-between gap-10 mt-10">
         {/* first part */}
-        <div className="w-[70%]   flex flex-col gap-4">
+        <div className="w-[70%]   flex flex-col justify-between  gap-4">
           <div className="bg-white p-5 rounded-lg hover:translate-y-1 transition-transform hover:shadow-lg">
             <div className="mb-10 font-semibold">
               <h1>Sale statistics</h1>
@@ -89,7 +91,14 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className="w-[30%]">fffffff</div>
+        <div className="w-[30%] flex flex-col  gap-10">
+          <div className="bg-white p-5 rounded-lg hover:translate-y-1 transition-transform hover:shadow-lg">
+            <BarCharts></BarCharts>
+          </div>
+          <div className="bg-white p-5 rounded-lg hover:translate-y-1 transition-transform hover:shadow-lg">
+            <Progress></Progress>
+          </div>
+        </div>
       </div>
     </div>
   );
